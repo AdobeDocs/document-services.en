@@ -1,15 +1,21 @@
 ---
-title: Getting Started with Adobe PDF Tools API and .Net
-description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services.
+title: Using .Net to Consume Adobe PDF Tools API for PDF Generation
+description: Generating PDFs in .Net has never been easy to do. Adobe PDF Tools API provides a cloud-based set of web services to deliver high fidelity PDF generation.
 feature: tutorial
 topics: .Net
 audience: Developer
 skill: Beginner
 ---
 
-# Getting Started with Adobe PDF Tools API and .Net
+# Using .Net to Consume Adobe PDF Tools API for PDF Generation
 
 ![Create PDF Hero Image](../assets/GettingStartedJava_hero.jpg)
+
+Generating PDFs in .Net has never been easy to do. Developers often struggle with PDF generation from .Net applications that require more than basic PDF conversion. The basic PDF conversion principles are well known and there are many libraries that can be used for setting absolute positioning in documents with fixed content. But when you have dynamic HTML form data or CSS, resetting fixed positioning and merging that data becomes tedious and is not scalable or easily maintained. 
+
+Paid libraries exist for some of this functionality, but these can be expensive and require installation and maintenance of their own. Free libraries many times don’t produce good quality output or lack long term support. 
+
+Adobe PDF Tools API provides a cloud-based set of web services to deliver high fidelity output for a wide range of PDF manipulation operations including the more difficult HTML to PDF conversion. PDF Tools API allows developers to create static HTML to PDF conversions or dynamic HTML to PDF conversions with form field data. Even more, CSS and paged media CSS can be included for granular styling of your generated PDF.
 
 Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. This tutorial will walk you through all the steps to start running the samples using the PDF Tools .Net SDK:
 
@@ -54,11 +60,11 @@ You’ll receive a .zip file to download called PDFToolsSDK-.NetSamples.zip whic
 
     C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples\CreatePDFFromDocx>dotnet run CreatePDFFromDocx.csproj
 
-Your PDF will be created in the location designated in the output, which by default is the same folder.
+Your PDF will be created in the location designated in the output, which by default is the same folder. From here you can try out the other samples, including static and dynamic HTML conversion. 
 
 ## Final Thoughts:
 
-The PDF Tools API can help you eliminate manual processes by automating common workflows and shifting the processing burden to the cloud. In a world where every browser treats PDF differently, leveraging the Adobe PDF Embed API along with the PDF Tools API, you can create streamlined, reliable, and predictable processes that run and display correctly **every time** regardless of platform or device.
+For .Net developers, PDF Tools API provides numerous PDF manipulation and conversion options that can be setup within minutes in any existing .Net application. This API can help you eliminate manual processes by automating common workflows and shifting the processing burden to the cloud. In a world where every browser treats PDF differently, leveraging the Adobe PDF Embed API along with the PDF Tools API, you can create streamlined, reliable, and predictable processes that run and display correctly every time regardless of platform or device.  
 
 ## Resources and Next Steps
 
